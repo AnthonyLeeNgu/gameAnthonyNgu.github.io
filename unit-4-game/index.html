@@ -4,10 +4,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystal Collector</title>
-    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    
+
+
+ <body>
 
     <h1>Crystals Collector!</h1>
 
@@ -27,10 +30,34 @@
         <div id="crystals"></div>
 
 
-            <img class="crystalMix-image" img src= "file:///Users/anthonyngu/Developer/uofu0418/homework_04/unit-4-game/assets/images/mixgem.png" alt="crystal1">
-            <img class="crystalPink-image" img src= "file:///Users/anthonyngu/Developer/uofu0418/homework_04/unit-4-game/assets/images/pinkruby.png" alt="crystal2">
-            <img class="crystalPurple-image" img src= "file:///Users/anthonyngu/Developer/uofu0418/homework_04/unit-4-game/assets/images/purpleruby.png" alt="crystal3">
-            <img class="crystalRed-image" img src= "file:///Users/anthonyngu/Developer/uofu0418/homework_04/unit-4-game/assets/images/redruby.png" alt="crystal4">
+            <img src="assets/images/mixgem.png" class=crystalMix-image id="one" alt="Mix Gem">   
+            <img src="assets/images/redruby.png" class=crystalRed-image id="two" alt="Red Gem">  
+            <img src="assets/images/purpleruby.png" class=crystalPurple-image id="three" alt="Purple Gem"> 
+            <img src="assets/images/pinkruby.png" class=crystalPink-image id="four" alt="Pink Gem">  
+            
+
+
+        </div>
+        <div class="numberToMatch">
+            <h2>Number To Get:
+                <span id= "randomNumber"></span>
+
+        
+            </div>
+            <div class="winsAndLosses">
+                <h2>Wins:
+                    <span id= "numberWins"></span>
+                    </br>
+                    Losses: 
+                    <span id= "numberLosses"></span>
+
+
+
+                </div>
+                <div class="userTotal">
+                    <h2>Your total score is:
+                        <span id="finalTotal"></span>
+                    </h2>
 
 
 
@@ -50,9 +77,8 @@
 
 
 
-
-
-
-    <script src="./assets/javascript/game.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src="./assets/javascript/game.js"></script>
 </head>
-<body>
+ </body>
+ </html>

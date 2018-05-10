@@ -1,4 +1,14 @@
 .crystalMix-image, .crystalRed-image, .crystalPurple-image, .crystalPink-image {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
+
+body {
+    background-image: url(../images/background.png);
+
+    }
+
+h1 {
+    font-family: unset;
+    color: white;
+}
