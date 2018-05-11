@@ -2,13 +2,46 @@
     width: 100px;
     height: 100px;
   }
-
 body {
-    background-image: url(../images/background.png);
+    background-image: url(../images/space.png);
+}
+.jumbotron {
+    background-image: url(../images/space.png);
+}
 
-    }
+.h1, h1 {
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 100px;
+    text-align: center;
 
-h1 {
-    font-family: unset;
+}
+
+.h4, h4 {
+    font-family: 'Righteous', cursive;
+    color: white !important;
+
+}
+
+li {
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.card-text:last-child {
+    color: white;
+}
+
+.card-body {
+    background-image: url(../images/space.png);
+}
+
+.card {
+    border-color: white;
+    background-image: url(../images/space.png;);
+}
+
+.h2, h2 {
+    font-family: 'Righteous', cursive;
     color: white;
 }
