@@ -3,10 +3,10 @@
     height: 100px;
   }
 body {
-    background-image: url(../images/space.png);
+    background-image: url(./unit-4-game/assets/images/space.png);
 }
 .jumbotron {
-    background-image: url(../images/space.png);
+    background-image: url(./unit-4-game/assets/images/space.png);
 }
 
 .h1, h1 {
@@ -33,12 +33,12 @@ li {
 }
 
 .card-body {
-    background-image: url(../images/space.png);
+    background-image: url(./unit-4-game/assets/images/space.png);
 }
 
 .card {
     border-color: white;
-    background-image: url(../images/space.png;);
+    background-image: url(./unit-4-game/assets/images/space.png);
 }
 
 .h2, h2 {
